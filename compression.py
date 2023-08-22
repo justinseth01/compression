@@ -61,7 +61,7 @@ def background_compression(image_path,image_name):
         image2[y:y+h, x:x+w] = face_roi
 
         # # uncomment to see detected faces
-        # cv2.rectangle(image2, (x, y), (x+w, y+h), (255, 0, 0), 2)
+        # cv2.rectangle(image2, (x, y), (x+w, y+h)4, (255, 0, 0), 2)
     
     # Output new image
     cv2.imwrite(output_path+os.path.sep+image_name, image2)
