@@ -1,0 +1,5 @@
+This program is an image compression tool that compresses the image everywhere except for the facial features recognized in each photo. I got the inspiration to make this from instagram because I would zoom in on photos only to see the photo was compressed so much that it was hard to see my friends' faces. Based on my testing, there was an average of ~15% size difference between the fully compressed photo and the facial-sensitive version.
+
+Upload your photos into the images folder and run compression.py. I put some of my own photos in there for testing, you can see the results I got in the output_folder directory.
+
+You can play around with some of the settings. If you want more dramatic compression results, change jpeg_quality = 5. If you want more realistic results, change jpeg_quality = 90. To add a rectangle around the faces of the photo that aren't compressed, uncomment line 64. To see analysis of the size of the image, uncomment analysis()
